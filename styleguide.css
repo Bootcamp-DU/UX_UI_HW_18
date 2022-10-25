@@ -91,3 +91,31 @@
             --ctaButtonHeight: 17px;
             --ctaButtonWeight: 800;
             --ctaButtonStyle: normal;
+            
+             @media (min-width: 576px) {
+        .ufo--about-header .about-title .title {
+            --h3Size: 25px;
+            --h3Height: 28px;
+            --p1Size: 18px;
+            --p1Height: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .ufo--case-study-container,
+        .ufo--about-header .about-title .title {
+            --h1Size: 60px;
+            --h1Height: 63px;
+            --h2Size: 40px;
+            --h2Height: 43px;
+            --h3Size: 30px;
+            --h3Height: 36px;
+            --h4Size: 24px;
+            --h4Height: 29px;
+            --p1Size: 18px;
+            --p1Height: 30px;
+            --p2Size: 16px;
+            --p2Height: 19px;
+        }
+    }
+
