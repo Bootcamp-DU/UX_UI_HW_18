@@ -79,3 +79,123 @@
                 .ufo-sec--projectgrid .project-subtitle {
                     --p1Color: #949390;
                 }
+
+                .ufo-sec,
+    .ufo--about-header .about-title .title,
+    .profile-page .project .project-name .project-title,
+    .profile-page .project .project-name .project-subtitle
+ {
+        --h1Font: "Montserrat";
+        --h1Color: #282A2B;
+        --h1Weight: 900;
+        --h1Style: normal;
+
+            --h1Size: 24px;
+                --h1Height: 25px;
+        --h2Font: "Montserrat";
+        --h2Color: #282A2B;
+        --h2Weight: normal;
+        --h2Style: italic;
+
+            --h2Size: 28px;
+                --h2Height: 30px;
+        --h3Font: "Montserrat";
+        --h3Color: #282A2B;
+        --h3Weight: 800;
+        --h3Style: normal;
+
+            --h3Size: 21px;
+                --h3Height: 25px;
+        --h4Font: "Montserrat";
+        --h4Color: #282A2B;
+        --h4Weight: normal;
+        --h4Style: normal;
+
+            --h4Size: 17px;
+                --h4Height: 20px;
+        --p1Font: "Karla";
+        --p1Color: #949390;
+        --p1Weight: normal;
+        --p1Style: normal;
+
+            --p1Size: 16px;
+                --p1Height: 1.5; 
+        --p2Font: "Karla";
+        --p2Color: #949390;
+        --p2Weight: normal;
+        --p2Style: italic;
+
+            --p2Size: 16px;
+                --p2Height: 1.5; 
+    }
+
+    @media (min-width: 576px) {
+        .ufo--about-header .about-title .title,
+        .profile-page .project .project-name .project-title,
+        .profile-page .project .project-name .project-subtitle
+ {
+            --h3Size: 25px;
+            --h3Height: 28px;
+            --p1Size: 18px;
+            --p1Height: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .ufo-sec,
+        .ufo--about-header .about-title .title,
+        .profile-page .project .project-name .project-title,
+        .profile-page .project .project-name .project-subtitle
+ {
+            --h1Size: 60px;
+            --h1Height: 63px;
+            --h2Size: 40px;
+            --h2Height: 43px;
+            --h3Size: 30px;
+            --h3Height: 36px;
+            --h4Size: 24px;
+            --h4Height: 29px;
+            --p1Size: 18px;
+            --p1Height: 30px;
+            --p2Size: 16px;
+            --p2Height: 19px;
+        }
+    }
+
+
+
+
+        .ufo--cta-btn-wr .btn--cta {
+            --ctaBgColor: #282A2B;
+            --ctaButtonSize: 14px;
+            --ctaButtonFont: Montserrat;
+            --ctaButtonColor: #FFFFFF;
+            --ctaButtonHeight: 17px;
+            --ctaButtonWeight: 800;
+            --ctaButtonStyle: normal;
+            
+             @media (min-width: 576px) {
+        .ufo--about-header .about-title .title {
+            --h3Size: 25px;
+            --h3Height: 28px;
+            --p1Size: 18px;
+            --p1Height: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .ufo--case-study-container,
+        .ufo--about-header .about-title .title {
+            --h1Size: 60px;
+            --h1Height: 63px;
+            --h2Size: 40px;
+            --h2Height: 43px;
+            --h3Size: 30px;
+            --h3Height: 36px;
+            --h4Size: 24px;
+            --h4Height: 29px;
+            --p1Size: 18px;
+            --p1Height: 30px;
+            --p2Size: 16px;
+            --p2Height: 19px;
+        }
