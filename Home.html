@@ -1,6 +1,6 @@
-html>
-<head>
-	<meta charset="UTF-8">
+<html>
+    <head>
+<meta charset="UTF-8">
 
 <meta name="csrf-token" content="fd2f3b9d-fac4-4b88-a5ed-687ba949d04a">
 <meta name="google-analytics-id" content="UA-69935771-28">
@@ -17,6 +17,14 @@ html>
     <meta name="theme-color" content="#ffffff">
     <link rel="icon" type="image/x-icon" href="/favicon/favicon.ico">
 
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-69935771-28"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-69935771-28');
+</script>
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -25,40 +33,495 @@ html>
             'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
         })(window,document,'script','dataLayer','GTM-N24X7V9');</script>
     <!-- End Google Tag Manager -->
-	<link rel="stylesheet" href="/dist/styles-49d28486cc6a243d058019fe6dd31e41.css">
-	<link rel="stylesheet" href="/dist/case-study-view-f886c540319051a384535ddc26e57117.css">
-	<link rel="stylesheet" href="/dist/case-study-editor-1a1be058648c5c8833c530a876cca645.css">
-	<title>UXfolio - Portfolio Editor</title>
-</head>
-<body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N24X7V9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>	<main>
-		<div id="collectionEditorApp"></div>
-	</main>
-
-    <script src="/dist/bundle-4793cbfa85b62f8857480ad052ce4645.js"></script>
+        <link rel="stylesheet" href="/dist/theme_eleven-495867f23b0ebb8f8b9de84e77f96ca4.css">
+        <link rel="stylesheet" href="/dist/case-study-view-f886c540319051a384535ddc26e57117.css">
 
 
-<link rel="stylesheet" type="text/css" href="/gdpr/css/style.css" />
-<script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
-<script src="/gdpr/js/templates.js"></script>
-<script src="/gdpr/js/script.js"></script>
-<script src="/gdpr/langs/en.js"></script>
 
-<button id="gdpr-settings-button" style="display: none;" class="gdpr-cookie-notice-settings-button">GDPR</button>
+<title>Mike McGarry's Portfolio</title>
+<meta name="description" content="UX designer" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Mike McGarry" />
+<meta property="og:description" content="UX designer" />
+<meta property="og:url" content="https://uxfol.io/0f1b547c" />
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Mike McGarry">
+<meta name="twitter:description" content="UX designer">
 
-<script type="text/javascript">
-    gdprCookieNotice({
-        locale: 'en', //This is the default value
-        timeout: 500, //Time until the cookie bar appears
-        expiration: 365, //This is the default value, in days
-        domain: '.uxfol.io', //If you run the same cookie notice on all subdomains, define the main domain starting with a .
-        implicit: true, //Accept cookies on page scroll automatically
-        statement: '/privacy-policy', //Link to your cookie statement page
-        performance: ['JSESSIONID'], //Cookies in the performance category.
-        analytics: ['ga'], //Cookies in the analytics category.
-        marketing: ['SSID'] //Cookies in the marketing category.
-    });
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700;800;900&family=Montserrat:wght@400;700;800;900&family=Karla:wght@400;700;800;900&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?display=swap" rel="stylesheet">
+
+
+
+
+<style>
+    .ufo--page-hero,
+    .ufo-sec--projectgrid {
+        --h1Font: "Source Sans Pro";
+        --h1Color: #282A2B;
+        --h1Weight: normal;
+        --h1Style: normal;
+        
+
+            --h1Size: 17px;
+            --h1Height: 20px;
+        --h2Font: "Source Sans Pro";
+        --h2Color: #282A2B;
+        --h2Weight: 900;
+        --h2Style: normal;
+        
+
+            --h2Size: 60px;
+            --h2Height: 72px;
+        --p1Font: "Source Sans Pro";
+        --p1Color: #282A2B;
+        --p1Weight: 400;
+        --p1Style: normal;
+        
+
+            --p1Size: 18px;
+            --p1Height: 22px;
+        --projectTitleFont: "Montserrat";
+        --projectTitleColor: #282A2B !important;
+        --projectTitleWeight: 700;
+        --projectTitleStyle: normal;
+        
+
+        --projectSubTitleFont: "Karla";
+        --projectSubTitleColor: #949390 !important;
+        --projectSubTitleWeight: normal;
+        --projectSubTitleStyle: normal;
+        
+
+        --buttonFont: "Source Sans Pro";
+        --buttonColor: #282A2B;
+        --buttonWeight: 400;
+        --buttonStyle: normal;
+        --borderColor: #282A2B33;
+
+            --buttonSize: 16px;
+            --buttonHeight: 21px;
+
+            --projectTitleSize: 20px;
+            --projectTitleHeight: 23px;
+            --projectSubTitleSize: 16px;
+            --projectSubTitleHeight: 19px;
+        }
+
+
+
+
+            .ufo-sec--projectgrid .project-title {
+                --projectTitleColor: #282A2B !important;
+            }
+
+            .ufo-sec--projectgrid .project-subtitle {
+                --projectSubTitleColor: #949390 !important;
+            }
+
+
+            .profile-footer {
+                --buttonFont: Source Sans Pro;
+                --buttonColor: #282A2B;
+                --buttonSize: 16px;
+            }
+
+
+                .ufo-sec--projectgrid .project-title {
+                    --h2Color: #282A2B;
+                }
+
+
+
+                .ufo-sec--projectgrid .project-subtitle {
+                    --p1Color: #949390;
+                }
+
+
+
+    @media (min-width: 768px) {
+        .ufo--page-hero,
+        .ufo-sec--projectgrid {
+            --h1Size: 24px;
+            --h1Height: 29px;
+            --h2Size: 85px;
+            --h2Height: 103px;
+            --p1Size: 26px;
+            --p1Height: 31px;
+            --projectTitleSize: 48px;
+            --projectTitleHeight: 59px;
+            --projectSubTitleSize: 20px;
+            --projectSubTitleHeight: 30px;
+            --buttonSize: 16px;
+            --buttonHeight: 19px;
+        }
+    }
+
+            @media (min-width: 1025px) {
+                .ufo-sec--projectgrid .project-title {
+                    color: var(--projectTitleColor);
+                }
+            }
+            @media (min-width: 1025px) {
+                .ufo-sec--projectgrid .project-subtitle {
+                    color: var(--projectSubTitleColor);
+                }
+            }
+
+            .ufo--about-page .ufo--about-header .back {
+                --p1Color: #282A2B;
+            }
+
+
+
+    .ufo--case-study-container,
+    .ufo--about-header .about-title .title {
+        --h1Font: "Montserrat";
+        --h1Color: #282A2B;
+        --h1Weight: 900;
+        --h1Style: normal;
+
+            --h1Size: 24px;
+                --h1Height: 25px;
+        --h2Font: "Montserrat";
+        --h2Color: #282A2B;
+        --h2Weight: normal;
+        --h2Style: italic;
+
+            --h2Size: 28px;
+                --h2Height: 30px;
+        --h3Font: "Montserrat";
+        --h3Color: #282A2B;
+        --h3Weight: 800;
+        --h3Style: normal;
+
+            --h3Size: 21px;
+                --h3Height: 25px;
+        --h4Font: "Montserrat";
+        --h4Color: #282A2B;
+        --h4Weight: normal;
+        --h4Style: normal;
+
+            --h4Size: 17px;
+                --h4Height: 20px;
+        --p1Font: "Karla";
+        --p1Color: #949390;
+        --p1Weight: normal;
+        --p1Style: normal;
+
+            --p1Size: 16px;
+                --p1Height: 1.5; 
+        --p2Font: "Karla";
+        --p2Color: #949390;
+        --p2Weight: normal;
+        --p2Style: italic;
+
+            --p2Size: 16px;
+                --p2Height: 1.5; 
+    }
+
+    @media (min-width: 576px) {
+        .ufo--about-header .about-title .title {
+            --h3Size: 25px;
+            --h3Height: 28px;
+            --p1Size: 18px;
+            --p1Height: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .ufo--case-study-container,
+        .ufo--about-header .about-title .title {
+            --h1Size: 60px;
+            --h1Height: 63px;
+            --h2Size: 40px;
+            --h2Height: 43px;
+            --h3Size: 30px;
+            --h3Height: 36px;
+            --h4Size: 24px;
+            --h4Height: 29px;
+            --p1Size: 18px;
+            --p1Height: 30px;
+            --p2Size: 16px;
+            --p2Height: 19px;
+        }
+    }
+
+
+</style>
+
+<style>
+    .ufo-sec,
+    .ufo--about-header .about-title .title,
+    .profile-page .project .project-name .project-title,
+    .profile-page .project .project-name .project-subtitle
+ {
+        --h1Font: "Montserrat";
+        --h1Color: #282A2B;
+        --h1Weight: 900;
+        --h1Style: normal;
+
+            --h1Size: 24px;
+                --h1Height: 25px;
+        --h2Font: "Montserrat";
+        --h2Color: #282A2B;
+        --h2Weight: normal;
+        --h2Style: italic;
+
+            --h2Size: 28px;
+                --h2Height: 30px;
+        --h3Font: "Montserrat";
+        --h3Color: #282A2B;
+        --h3Weight: 800;
+        --h3Style: normal;
+
+            --h3Size: 21px;
+                --h3Height: 25px;
+        --h4Font: "Montserrat";
+        --h4Color: #282A2B;
+        --h4Weight: normal;
+        --h4Style: normal;
+
+            --h4Size: 17px;
+                --h4Height: 20px;
+        --p1Font: "Karla";
+        --p1Color: #949390;
+        --p1Weight: normal;
+        --p1Style: normal;
+
+            --p1Size: 16px;
+                --p1Height: 1.5; 
+        --p2Font: "Karla";
+        --p2Color: #949390;
+        --p2Weight: normal;
+        --p2Style: italic;
+
+            --p2Size: 16px;
+                --p2Height: 1.5; 
+    }
+
+    @media (min-width: 576px) {
+        .ufo--about-header .about-title .title,
+        .profile-page .project .project-name .project-title,
+        .profile-page .project .project-name .project-subtitle
+ {
+            --h3Size: 25px;
+            --h3Height: 28px;
+            --p1Size: 18px;
+            --p1Height: 21px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        .ufo-sec,
+        .ufo--about-header .about-title .title,
+        .profile-page .project .project-name .project-title,
+        .profile-page .project .project-name .project-subtitle
+ {
+            --h1Size: 60px;
+            --h1Height: 63px;
+            --h2Size: 40px;
+            --h2Height: 43px;
+            --h3Size: 30px;
+            --h3Height: 36px;
+            --h4Size: 24px;
+            --h4Height: 29px;
+            --p1Size: 18px;
+            --p1Height: 30px;
+            --p2Size: 16px;
+            --p2Height: 19px;
+        }
+    }
+
+
+
+
+        .ufo--cta-btn-wr .btn--cta {
+            --ctaBgColor: #282A2B;
+            --ctaButtonSize: 14px;
+            --ctaButtonFont: Montserrat;
+            --ctaButtonColor: #FFFFFF;
+            --ctaButtonHeight: 17px;
+            --ctaButtonWeight: 800;
+            --ctaButtonStyle: normal;
+
+        }
+</style>    </head>
+    <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N24X7V9" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>        <main>
+
+                <div class="ufo--portfolio-page theme_eleven">
+
+
+    <div class="grid ufo--page-hero cover">
+
+            <div class="ufo--page-navbar">
+
+                <div class="ufo--page-navbar-id">Mike McGarry</div>
+
+                <div class="ufo--page-navbar-container">
+
+                    
+
+
+
+                <div class="ufo--page-navbar-item selected" data-text="Home">
+                    <a href="/0f1b547c" class="btn active">Home</a>
+                </div>
+
+
+                <div class="ufo--page-navbar-item " data-text="About">
+                    <a href="/p/0f1b547c/about" class="btn ">About</a>
+                </div>
+
+
+                <div class="ufo--page-navbar-item " data-text="Contact">
+                    <a href="/p/0f1b547c/contact" class="btn ">Contact</a>
+                </div>
+
+
+
+
+                    
+                </div>
+
+                <div class="ufo--page-navbar-toggle"><span></span><span></span><span></span><span></span></div>
+
+            </div>
+
+            <div class="ufo--page-hero-content" style="height: 400px">
+
+        <div class="ufo--page-hero-background  " style=" background-color: #666f72;  "></div>
+
+        <div class="ufo--page-hero-image   cover  left" style="--bgColor: #666f72">
+            <img src="https://storage.googleapis.com/uxfolio/633255d5c674ec0003fa9d3a/collections/fe4cabcc-10e0-4395-a36e-f0d00f1b547c/yv9qx5DFauyrlg14.jpeg" alt="Mike McGarry's portfolio profile image" class="hero-image">
+        </div>
+
+                <div class="ufo--page-hero-bio view      left " style="height: 400px" >
+                    <div class="ufo--page-hero-bio-text">
+                        <h1><strong>Mike McGarry</strong></h1><p></p><p></p><p></p>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+    </div>
+
+                    <div class="ufo--page-content ufo--home-page-content">
+                        <div class="ufo--user-projects-list">
+                            <div class="ufo--page-sections ">
+                                <div class="ufo--case-study-container project_editor">
+                                    <div class="projects-list project-wrapper">
+
+
+
+
+
+            <div id="section-0" class="ufo-sec ufo-sec--text" style="--paddingTop: 100px;  --paddingBottom: 100px;">
+                <div class="grid">
+    <div class="text-container ">
+            <h3>I’m passionate about designing delightful digital journeys that make users’ lives easier.<br><br>I love collaborating with brilliant thinkers on innovative user experiences.</h3>
+    </div>
+
+
+
+                </div>
+            </div>
+
+
+
+    <div id="section-1" class="ufo-sec ufo-sec--projectgrid" style="--paddingTop: 0px;  --paddingBottom: 100px;">
+        <div class="grid ufo--user-projects">
+                    <a href="/p/0f1b547c/03adbaaf" class="project title-is--visible title-is--below title-is--dark thumbnail-is--large thumbnail-is--large-under title-align--none title-justify--left">
+                        <div class="project-name">
+                            <div class="ufo--project-title-container">
+                                <div class="project-title">Travel Genie</div>
+                            </div>
+                            <div class="ufo--project-title-container">
+                                <div class="project-subtitle">Mobile travel app</div>
+                            </div>
+                        </div>
+                        <div class="image-container " style="">
+                                <img src="https://storage.googleapis.com/uxfolio/633255d5c674ec0003fa9d3a/633b31d41d43db0003adbaaf/DTJkOaGxRc97VEqg.jpg" class="project-thumbnail">
+                        </div>
+                    </a>
+                    <a href="/p/0f1b547c/0377588e" class="project title-is--visible title-is--below title-is--dark thumbnail-is--large thumbnail-is--large-under title-align--none title-justify--left">
+                        <div class="project-name">
+                            <div class="ufo--project-title-container">
+                                <div class="project-title">DogGO</div>
+                            </div>
+                            <div class="ufo--project-title-container">
+                                <div class="project-subtitle">Mobile app</div>
+                            </div>
+                        </div>
+                        <div class="image-container overlay" style="--colorOverlay: rgba(232,226,226,0.32)">
+                                <img src="https://storage.googleapis.com/uxfolio/633255d5c674ec0003fa9d3a/633de7c9afe878000377588e/MIjiXqJuDS8CR59l.png" class="project-thumbnail">
+                        </div>
+                    </a>
+                    <a href="/p/0f1b547c/03b37607" class="project title-is--visible title-is--below title-is--dark thumbnail-is--large thumbnail-is--large-under title-align--none title-justify--left">
+                        <div class="project-name">
+                            <div class="ufo--project-title-container">
+                                <div class="project-title">Denver Cat Company</div>
+                            </div>
+                            <div class="ufo--project-title-container">
+                                <div class="project-subtitle">Non-Profit website re-design</div>
+                            </div>
+                        </div>
+                        <div class="image-container " style="">
+                                <img src="https://storage.googleapis.com/uxfolio/633255d5c674ec0003fa9d3a/633efd75cd55ae0003b37607/rIrKgSeiYvkvhyFj.jpg" class="project-thumbnail">
+                        </div>
+                    </a>
+        </div>
+    </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+<script>
+    function navigateToPage(page) {
+        let currentLocation = location.href.replace(location.search, "").replace('/p/', '/');
+        window.location = currentLocation + (currentLocation[currentLocation.length - 1] === '/' ? '' : '/') + (page ? page : '');
+    }
+    function navigateToProject(projectUrl) {
+        var location = window.location.origin;
+        location += projectUrl;
+        window.location.href = location;
+    }
+    function ctaIntNavigation(page) {
+        let currentLocation = location.href.replace(location.search, "");
+        currentLocation = currentLocation.lastIndexOf("/") === currentLocation.length -1
+            ? currentLocation.substring(0, currentLocation.lastIndexOf('/'))
+            : currentLocation;
+
+            window.location = currentLocation + page;
+    }
+
+    document.querySelector('.ufo--page-navbar-toggle').onclick = function() {
+        this.classList.toggle('on');
+        document.querySelector('.ufo--page-navbar-container').classList.toggle('on');
+        document.querySelector('body').classList.toggle('nav-on');
+    }
 </script>
-</body>
-</html>
 
+                </div>
+
+        </main>
+
+        <script src="/dist/csv-9669866c39014b22b874f79093be8bdb.js"></script>
+
+    </body>
+</html>
