@@ -1,2 +1,72 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
+    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <meta name="viewport" content="width=1152, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home.css" />
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="home" />
+    <div class="container-center-horizontal">
+      <div class="home screen">
+        <div class="flex-row">
+          <div class="flex-row-1">
+            <div class="flex-col">
+              <h1 class="hi-i-am-mike-im-a heebo-bold-ebony-clay-44px">
+                <span class="heebo-bold-ebony-clay-44px">Hi, I am Mike<br /></span
+                ><span class="span1"
+                  >I’m a UI/UX Designer by day and cat dad by night. I focus on creating interfaces and experiences that
+                  are visually attractive and functional.</span
+                >
+              </h1>
+              <div class="overlap-group3">
+                <div class="download-resume heebo-medium-white-20px">Download Resume</div>
+              </div>
+              <div class="featured-works">Featured works</div>
+              <div class="work-1 heebo-bold-ebony-clay-30px">Work 1</div>
+            </div>
+            <img class="vector-2" src="img/vector-2@2x.svg" alt="Vector 2" />
+          </div>
+          <div class="flex-col-1">
+            <div class="flex-row-2 heebo-medium-black-20px">
+              <div class="works">Works</div>
+              <div class="place">Contact</div>
+            </div>
+            <img class="ellipse-1" src="img/ellipse-1@2x.png" alt="Ellipse 1" />
+          </div>
+        </div>
+        <p class="amet-minim-mollit-no heebo-normal-ebony-clay-16px">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+          velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <div class="overlap-group1"><div class="view-project heebo-medium-white-20px">View Project</div></div>
+        <div class="work-2 heebo-bold-ebony-clay-30px">Work 2</div>
+        <div class="overlap-group2">
+          <div class="rectangle-12"></div>
+          <div class="view-project-1 heebo-medium-white-20px">View Project</div>
+          <p class="amet-minim-mollit-no-1 heebo-normal-ebony-clay-16px">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit. Exercitation veniam consequat sunt nostrud amet.
+          </p>
+        </div>
+        <div class="work-3 heebo-bold-ebony-clay-30px">Work 3</div>
+        <p class="amet-minim-mollit-no-2 heebo-normal-ebony-clay-16px">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+          velit mollit. Exercitation veniam consequat sunt nostrud amet.
+        </p>
+        <div class="overlap-group4"><div class="view-project heebo-medium-white-20px">View Project</div></div>
+        <div class="my-ux-skills">My UX Skills</div>
+        <p class="my-ux-skills-section">&nbsp;&nbsp;My UX Skills section coded using CSS flex</p>
+        <img class="vector-14" src="img/vector-14@1x.svg" alt="Vector 14" />
+        <div class="view-all-projects">View all projects</div>
+        <div class="overlap-group"><div class="view-project heebo-medium-white-20px">View Projects</div></div>
+      </div>
+    </div>
+  </body>
+</html># Auto detect text files and perform LF normalization
